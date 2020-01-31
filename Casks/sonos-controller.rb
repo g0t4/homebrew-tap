@@ -1,8 +1,9 @@
 cask 'sonos-controller' do
-    version '8.6'
-    sha256 '5485547c0c8c520e8562c151be9bc1b73b076a977cf4d6ed2bf7926a9bed7746'
+    version '10.6.1'
+    sha256 '87201066dbd93e9ea806e1faa85e861dd8bb44cf3a4c98b352f37ec7fc4803d3'
     
     url "https://update.sonos.com/software/mac/mdcr/SonosDesktopController#{version.no_dots}.dmg"
+    
     name 'Sonos Controller'
     homepage 'https://www.sonos.com/en-us/controller-app'
 
@@ -11,7 +12,7 @@ cask 'sonos-controller' do
     app 'Sonos.app'
 
     # this is the release notes page (can see latest release here too)
-    appcast 'https://www.sonos.com/en-us/software/release/8-6'
+    appcast 'https://support.sonos.com/s/article/3521'
 
     zap trash: '~/Library/Application Support/Sonos'
 end
