@@ -1,4 +1,6 @@
 cask 'sonos-controller' do
+    # LEGACY NOW
+    # rename ? https://docs.brew.sh/Rename-A-Formula
     version '10.6.1'
     sha256 '87201066dbd93e9ea806e1faa85e861dd8bb44cf3a4c98b352f37ec7fc4803d3'
     
