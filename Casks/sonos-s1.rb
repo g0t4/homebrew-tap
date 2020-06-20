@@ -17,7 +17,7 @@ cask 'sonos-s1' do
     appcast 'https://support.sonos.com/s/article/3521'
 
     zap trash: [
-         '~/Library/Application Support/Sonos'
+         '~/Library/Application Support/Sonos',
          '~/Library/Application Support/com.sonos.macController'
     ]
 end
