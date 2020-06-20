@@ -16,5 +16,8 @@ cask 'sonos-s1' do
     # this is the release notes page (can see latest release here too)
     appcast 'https://support.sonos.com/s/article/3521'
 
-    zap trash: '~/Library/Application Support/Sonos S1 Controller'
+    zap trash: [
+         '~/Library/Application Support/Sonos'
+         '~/Library/Application Support/com.sonos.macController'
+    ]
 end
