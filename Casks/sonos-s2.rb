@@ -17,5 +17,9 @@ cask 'sonos-s2' do
     # this is the release notes page (can see latest release here too)
     appcast 'https://support.sonos.com/s/article/3521'
 
-    zap trash: '~/Library/Application Support/Sonos'
+    zap trash: [
+         '~/Library/Application Support/SonosV2',
+         '~/Library/Application Support/com.sonos.macController2'
+    ]
+
 end
