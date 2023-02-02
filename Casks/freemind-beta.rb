@@ -1,4 +1,8 @@
-cask 'freemind' do
+cask 'freemind-beta' do
+  # freemind appears abandoned
+  # last stable release: 2014
+  # last beta (this version) release: 2016
+  # name conflicts with name in brew casks tap, setting to beta build to avoid ambiguity about what is and isn't installed as brew list shows both installed when cask is installed 1.0.1
     version '1.1.0_Beta2'
     # to get sha256, `wget <url below>` 
       # then `shasum FreeMind_1.1.0_Beta_2.dmg` 
