@@ -1,6 +1,6 @@
 cask 'sony-imaging-edge-webcam' do
   name 'Sony Imaging Edge Webcam'
-  desc 'webcam driver to remotely access sony cameras'
+  desc 'device driver to remotely access compatible sony cameras. Test with QuickTime => File => New Movie Recording => check in dropdown of cameras for "Sony Imaging Edge"'
 
   # version only seems listed here:
   # - https://support.d-imaging.sony.co.jp/app/webcam/en/
@@ -16,11 +16,8 @@ cask 'sony-imaging-edge-webcam' do
   # curl -I https://support.d-imaging.sony.co.jp/disoft_DL/webcam/mac\?fm\=en
   url 'https://di.update.sony.net/NEX/gvKlzuWNlL/IEW110_2111a.dmg'
   homepage 'https://support.d-imaging.sony.co.jp/app/webcam/en/'
-  license 'https://support.d-imaging.sony.co.jp/app/webcam/en/instruction/'
 
-  # TODO: UNSURE # auto_updates true
-
-  # TODO: app 'Screencast-O-Matic v2.0.app'
+  auto_updates false # TODO find out... given its not an app but a virtual device I don't see how there would be any sort of update daemon or interface... might be one in "Imaging Edge" software which IIGC is a superset of this webcam device driver plus camera controls and more...?
 
   appcast 'https://screencast-o-matic.com/release-notes'
 
