@@ -5,6 +5,9 @@ cask 'sonos-s2' do
 
     # download page: https://support.sonos.com/s/downloads?language=en_US
     # - macOS S2 app link: https://www.sonos.com/redir/controller_software_mac2 # as of 2023-03-11
+    #    FYI this link redirects to the current version, i.e. right now:
+    #      https://update-software.sonos.com/software/veqbtaxi/Sonos_71.1-38240.dmg
+    #      I last had version "12.0" and now it's "71.1"!? clearly this version scheme is radical and irrelevant IMO given that the app auto-updates so to install it I just need to grab latest version and then it will update itself thereafter.
     url "https://www.sonos.com/en-us/redir/controller_software_mac2"
 
     name 'Sonos S2'
