@@ -21,7 +21,7 @@ cask 'sonos-s2' do
     app 'Sonos.app'
 
     # this is the release notes page (can see latest release here too)
-    appcast 'https://support.sonos.com/en/article/release-notes-for-sonos-s2'
+    # appcast 'https://support.sonos.com/en/article/release-notes-for-sonos-s2'
 
     zap trash: [
          '~/Library/Application Support/SonosV2',

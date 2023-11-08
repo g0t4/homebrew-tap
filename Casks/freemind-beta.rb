@@ -15,7 +15,7 @@ cask 'freemind-beta' do
 
     # remainder copied from "stable" freemind formula: https://github.com/Homebrew/homebrew-cask/blob/master/Casks/freemind.rb
     # url "https://downloads.sourceforge.net/freemind/freemind/#{version}/FreeMind_#{version}.dmg"
-    appcast 'https://sourceforge.net/projects/freemind/rss?path=/freemind'
+    # appcast 'https://sourceforge.net/projects/freemind/rss?path=/freemind'
     name 'FreeMind'
     homepage 'http://freemind.sourceforge.net/wiki/index.php/Main_Page'
     app 'FreeMind.app'

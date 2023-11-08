@@ -33,7 +33,7 @@ cask 'sony-imaging-edge-webcam' do
 
   auto_updates false # TODO find out... given its not an app but a virtual device I don't see how there would be any sort of update daemon or interface... might be one in "Imaging Edge" software which IIGC is a superset of this webcam device driver plus camera controls and more...?
 
-  appcast 'https://screencast-o-matic.com/release-notes'
+  # appcast 'https://screencast-o-matic.com/release-notes'
 
   # formula cookbook: https://docs.brew.sh/Formula-Cookbook
   # cask cookbook: https://docs.brew.sh/Cask-Cookbook

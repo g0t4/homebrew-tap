@@ -12,7 +12,7 @@ cask 'som' do
 
     app 'Screencast-O-Matic v2.0.app'
 
-    appcast 'https://screencast-o-matic.com/release-notes'
+    # appcast 'https://screencast-o-matic.com/release-notes'
     # blog https://screencast-o-matic.com/blog/
 
 end
